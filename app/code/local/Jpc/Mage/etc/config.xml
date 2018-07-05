@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Jpc_Mage>
+			<version>0.0.1</version>
+		</Jpc_Mage>
+	</modules>
+	<global>
+		<helpers>
+		  <Jpc_Mage>
+			  <class>Jpc_Mage_Helper</class>
+		  </Jpc_Mage>
+		</helpers>
+	</global>
+</config>
