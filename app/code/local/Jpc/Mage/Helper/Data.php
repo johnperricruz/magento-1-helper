@@ -13,5 +13,9 @@ class Jpc_Mage_Helper_Data extends Mage_Core_Helper_Abstract{
 	/**
 	 * Custom Functions Here
 	 */
+	 function getStaticBlock($_this,$identifier){
+		 //Mage::helper('Jpc_Mage')->getStaticBlock($this,'left')
+		 return $_this->getLayout()->createBlock('cms/block')->setBlockId($identifier)->toHtml();
+	 }
 	 
 }
